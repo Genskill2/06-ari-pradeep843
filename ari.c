@@ -1,4 +1,9 @@
-{
+#include <stdio.h>
+#include<ctype.h>
+#include<math.h>
+#include <cs50.h>
+#include<string.h> 
+string ari(string s){
 int l=strlen(s);
 int a=0,b=0,c=0;
 for(int i=0;i<l;i++) {
@@ -43,4 +48,5 @@ case 13:return "College student";
 break; 
 case 14:return "Professor"; 
 break;
+} 
 }
